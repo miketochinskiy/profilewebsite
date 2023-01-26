@@ -4,7 +4,7 @@
 /* My Styles */
 body {
   font-family: 'Tanker-Regular';
-
+  background-color: rgb(168, 168, 168);
   display: grid;
   justify-content: center;
   align-content: center;
@@ -13,4 +13,8 @@ body {
 
 h1, p {
   color: #eee;
+}
+
+img {
+  width: 50%;
 }
