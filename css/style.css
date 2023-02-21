@@ -3,8 +3,8 @@
 
 /* My Styles */
 body {
-  font-family: 'Bespoke Stencil';
-  background-color: rgb(168, 168, 168);
+  font-family: 'Bespoke-Stencil';
+  background-color: rgb(99, 99, 99);
   display: grid;
   justify-content: center;
   align-content: center;
@@ -12,7 +12,12 @@ body {
 }
 
 h1, p {
-  color: #eee;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 img {
