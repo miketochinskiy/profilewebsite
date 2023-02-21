@@ -3,16 +3,17 @@
 
 /* My Styles */
 body {
-  font-family: 'Bespoke-Stencil';
+  font-family: 'BespokeStencil-Light';
   background-color: rgb(99, 99, 99);
   display: grid;
   justify-content: center;
   align-content: center;
   height: 100vh;
+  color: #ffffff;
 }
 
-h1, p {
-  color: #ffffff;
+h1 {
+  font-family: 'BespokeStencil-Variable';
 }
 
 a {
@@ -22,4 +23,5 @@ a {
 
 img {
   width: 50%;
+  border-radius: 40px;
 }
