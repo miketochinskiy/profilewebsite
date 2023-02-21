@@ -6,8 +6,8 @@ body {
   font-family: 'BespokeStencil-Light';
   background-color: rgb(99, 99, 99);
   display: grid;
-  justify-content: center;
-  align-content: center;
+  justify-items: center;
+  align-items: center;
   height: 100vh;
   color: #ffffff;
 }
