@@ -1,9 +1,9 @@
-/* @import url(bespoke-stencil.css) */
 @import url(bespoke-stencil.css);
+@import url(supreme.css);
 
 /* My Styles */
 body {
-  font-family: 'BespokeStencil-Light';
+  font-family: 'Supreme-Regular';
   background-color: rgb(99, 99, 99);
   display: grid;
   justify-items: center;
