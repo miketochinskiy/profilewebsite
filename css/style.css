@@ -4,26 +4,30 @@
 /* My Styles */
 body {
   font-family: 'Supreme-Regular';
-  background-color: rgb(99, 99, 99);
+  background-image: url(https://i.imgur.com/xProORE.jpg);
   display: grid;
   justify-items: center;
   align-items: center;
   height: 100vh;
   color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+
 }
 
 h1 {
   font-family: 'BespokeStencil-Variable';
   color: #ffffff;
-  font-size: 100px;
 }
+
 
 p {
   color:#ffffff;
   width: 900px;
-}
-
-
 }
 
 a {
@@ -39,5 +43,9 @@ img {
 
 [role="button"] {
 background-color: rgb(0, 146, 165);
-outline: none;
+stroke: none;
+}
+
+#logo {
+scale: .04;
 }
