@@ -5,7 +5,7 @@
 body {
   font-family: 'Supreme-Regular';
   background-image: url(https://i.imgur.com/xProORE.jpg);
-  
+  background-size: 100%;
   display: grid;
   justify-items: center;
   align-items: center;
@@ -15,13 +15,8 @@ body {
   padding: 0;
 }
 
-#logo {
-
-
-}
-
-nav ul {
-  
+.topnav {
+  padding: 1em 4em 1em 0em;
 }
 
 h1 {
@@ -37,7 +32,9 @@ h3 {
 p {
   color:#ffffff;
   width: 900px;
-  background-color: none;
+  background-color: rgba(0, 0, 0, 0.362);
+  padding: 3em;
+  border-radius: 1em;
 }
 
 a {
@@ -56,4 +53,8 @@ background-color: rgb(76, 76, 76);
 
 #logo {
 scale: .04;
+}
+
+svg {
+  margin: 2em;
 }
