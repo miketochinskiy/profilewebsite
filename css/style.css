@@ -5,6 +5,7 @@
 body {
   font-family: 'Supreme-Regular';
   background-image: url(https://i.imgur.com/xProORE.jpg);
+  
   display: grid;
   justify-items: center;
   align-items: center;
@@ -14,20 +15,29 @@ body {
   padding: 0;
 }
 
+#logo {
 
-header {
 
+}
+
+nav ul {
+  
 }
 
 h1 {
-  font-family: 'BespokeStencil-Variable';
+  font-family: 'BespokeStencil-Variable';  
+  font-size: 50px;
   color: #ffffff;
 }
 
+h3 {
+  color: #ffffff;
+}
 
 p {
   color:#ffffff;
   width: 900px;
+  background-color: none;
 }
 
 a {
@@ -35,16 +45,14 @@ a {
   color: #ffffff;
 }
 
-img {
-  width: 500px;
-  border-radius: 40px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
-}
 
 [role="button"] {
-background-color: rgb(0, 146, 165);
-stroke: none;
+background-color: rgb(76, 76, 76);
 }
+
+[role="button"]:hover {
+  background-color: rgb(240, 206, 8);
+  }
 
 #logo {
 scale: .04;
