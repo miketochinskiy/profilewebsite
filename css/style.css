@@ -13,10 +13,14 @@ body {
   color: #ffffff;
   margin: 0;
   padding: 0;
+  height: fit-content;
 }
 
 .topnav {
   padding: 1em 4em 1em 0em;
+}
+.topnav:hover {
+  color: rgb(223, 174, 38);
 }
 
 h1 {
@@ -45,10 +49,11 @@ a {
 
 [role="button"] {
 background-color: rgb(76, 76, 76);
+border: 0px solid;
 }
 
 [role="button"]:hover {
-  background-color: rgb(240, 206, 8);
+  background-color: rgb(223, 174, 38);
   }
 
 #logo {
@@ -57,4 +62,8 @@ scale: .04;
 
 svg {
   margin: 2em;
+}
+
+.social {
+  margin-bottom: 100px;
 }
