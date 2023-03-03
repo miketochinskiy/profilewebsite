@@ -39,15 +39,21 @@ p {
 }
 
 #about {
-  display: grid;
+
   max-width: 1000px;
   background-color: rgba(0, 0, 0, 0.362);
   padding: 3em;
   border-radius: 1em;
 }
 
-.hero {
-  max-width: 100;
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#hero {
+  max-width: 450px;
+  margin-left: 50px;
 }
 
 a {
