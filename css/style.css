@@ -4,8 +4,7 @@
 /* My Styles */
 body {
   font-family: 'Supreme-Regular';
-  background-image: url(https://i.imgur.com/xProORE.jpg);
-  background-size: 100%;
+  background-image: url("https://i.imgur.com/z79N8Xu.png");
   display: grid;
   justify-items: center;
   align-items: center;
