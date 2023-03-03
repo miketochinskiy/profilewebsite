@@ -39,6 +39,29 @@ h3 {
   color: rgb(0, 0, 0);
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#logo {
+scale: .04;
+}
+
+svg {
+  margin: 2em;
+}
+
+.social {
+  margin: 20px;
+  margin-bottom: 200px;
+}
+
+.allsocial {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
 p {
   color: black;
   line-height: 2em;
@@ -57,6 +80,7 @@ p {
   padding: 4em;
   border-radius: 1em;
   justify-items: center;
+  margin-bottom: 200px;
 }
 
 #content {
@@ -71,35 +95,10 @@ p {
   border-radius: 50%;
 }
 
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-
-[role="button"] {
-/*background-color: rgb(76, 76, 76);*/
-border: 0px solid;
-}
-
-[role="button"]:hover {
-  background-color: rgb(223, 174, 38);
-  }
-
-#logo {
-scale: .04;
-}
-
-svg {
-  margin: 2em;
-}
-
-.social {
-  margin: 20px;
-  margin-bottom: 200px;
-}
-
-.allsocial {
-  margin-top: 50px;
-  margin-bottom: 200px;
+footer {
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  max-height: 10px;
+  margin-bottom: 0px;
 }
