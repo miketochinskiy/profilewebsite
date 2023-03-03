@@ -1,6 +1,7 @@
 console.log('JS Connected');
 
 gsap.from("#name", {
-    scale: 1000,
+    scale: 5,
     duration: 2,
+    ease: "bounce",
 })
