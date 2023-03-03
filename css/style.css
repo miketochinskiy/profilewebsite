@@ -25,17 +25,19 @@ body {
 
 h1 {
   font-family: 'BespokeStencil-Variable';  
-  font-size: 50px;
   color: #ffffff;
 }
 
-h3 {
+h2 {
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
   color:#ffffff;
-  width: 900px;
+  max-width: 900px;
   background-color: rgba(0, 0, 0, 0.362);
   padding: 3em;
   border-radius: 1em;
