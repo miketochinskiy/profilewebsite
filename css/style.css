@@ -4,7 +4,7 @@
 /* My Styles */
 body {
   font-family: 'Supreme-Regular';
-  background-image: url("https://i.imgur.com/z79N8Xu.png");
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(223, 223, 223));
   display: grid;
   justify-items: center;
   align-items: center;
