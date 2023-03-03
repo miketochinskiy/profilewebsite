@@ -52,7 +52,7 @@ p {
   background-image: url("https://i.imgur.com/tdl4SQd.jpg");
   background-color: rgba(0, 0, 0, 0.362);
   background-size: 150%;
-  background-position-y: 0px;
+  background-position-y: -100px;
   max-width: 1000px;
   padding: 4em;
   border-radius: 1em;
