@@ -34,26 +34,41 @@ h2 {
   justify-content: center;
 }
 
+h3 {
+  font-family: 'BespokeStencil-Variable'; 
+  color: rgb(0, 0, 0);
+}
+
 p {
-  color:#ffffff;
+  color: black;
+  line-height: 2em;
+  padding: 40px;
+  background-color: #ffffff83;
+  border-radius: 20px;
 }
 
 #about {
-
-  max-width: 1000px;
+  display: grid;
+  background-image: url("https://i.imgur.com/tdl4SQd.jpg");
   background-color: rgba(0, 0, 0, 0.362);
-  padding: 3em;
+  background-size: 150%;
+  background-position-y: 0px;
+  max-width: 1000px;
+  padding: 4em;
   border-radius: 1em;
+  justify-items: center;
 }
 
 #content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 #hero {
   max-width: 450px;
-  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50%;
 }
 
 a {
@@ -63,7 +78,7 @@ a {
 
 
 [role="button"] {
-background-color: rgb(76, 76, 76);
+/*background-color: rgb(76, 76, 76);*/
 border: 0px solid;
 }
 
@@ -86,5 +101,5 @@ svg {
 
 .allsocial {
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
