@@ -2,6 +2,10 @@
 @import url(supreme.css);
 
 /* My Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Supreme-Regular';
   background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(223, 223, 223));
@@ -13,13 +17,14 @@ body {
   margin: 0;
   padding: 0;
   height: fit-content;
+  block-size: fit-content;
 }
 
 .topnav {
   padding: 1em 4em 1em 0em;
 }
 .topnav:hover {
-  color: rgb(223, 174, 38);
+  color: rgb(86, 218, 255);
 }
 
 h1 {
@@ -32,6 +37,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: max(2vw, 20px);
 }
 
 h3 {
@@ -57,6 +63,15 @@ svg {
   margin-bottom: 200px;
 }
 
+
+.sicon {
+  transition: .5s ease-out;
+}
+
+.sicon:hover {
+  fill: rgb(86, 218, 255);
+}
+
 .allsocial {
   margin-top: 50px;
   margin-bottom: 200px;
@@ -65,9 +80,7 @@ svg {
 p {
   color: black;
   line-height: 2em;
-  padding: 40px;
-  background-color: #ffffff83;
-  border-radius: 20px;
+
 }
 
 #about {
@@ -78,22 +91,23 @@ p {
   background-position-y: -100px;
   max-width: 1000px;
   padding: 4em;
-  border-radius: 1em;
-  justify-items: center;
   margin-bottom: 200px;
-}
-
-#content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
-#hero {
+#content {
+  padding: 40px;
+  background-color: #ffffff83;
+  border-radius: 20px;
+}
+
+/* #hero {
   max-width: 450px;
   margin-right: 50px;
   border-radius: 50%;
-}
+} */
 
 footer {
   background-color: #ffffff;

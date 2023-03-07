@@ -1,8 +1,8 @@
 console.log('JS Connected');
 
 gsap.from("#name", {
-    scale: 5,
-    duration: 3,
+    scale: 1.2,
+    duration: 2,
 //    rotate: 180,
     ease: "bounce",
 })
@@ -28,3 +28,5 @@ gsap.from("#T", {
     x: 1500,
     y: 1000,
 })
+
+    
