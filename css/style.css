@@ -90,7 +90,7 @@ scale: .04;
   padding: 20px;
   margin-bottom: 200px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 40%;
   align-items: center;
   border-radius: 20px;
   background-size: 200%;
@@ -203,7 +203,7 @@ scale: .04;
     #about {
     background-size: 200%;
     background-position-y: -20px;
-    background-position-x: -100px;
+    background-position-x: -50px;
     max-width: 90%;
     padding: 20px;
     margin-bottom: 90px;
