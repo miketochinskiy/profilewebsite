@@ -23,8 +23,24 @@ body {
 .topnav {
   padding: 1em 4em 1em 0em;
 }
+
 .topnav:hover {
-  color: rgb(86, 218, 255);
+  color: rgb(129, 228, 255);
+}
+
+.social {
+  margin: 20px;
+  margin-bottom: 200px;
+}
+
+
+.allsocial {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+#name {
+  font-size: 100px;
 }
 
 h1 {
@@ -37,12 +53,19 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: max(2vw, 20px);
+  font-size: 40px;  
 }
 
 h3 {
   font-family: 'BespokeStencil-Variable'; 
-  color: rgb(0, 0, 0);
+  color: white;
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  font-size: 20px; 
+  line-height: 50px;
 }
 
 a {
@@ -54,65 +77,146 @@ a {
 scale: .04;
 }
 
-svg {
-  margin: 2em;
+.sicon:hover {
+  fill: rgb(129, 228, 255);
 }
-
-.social {
-  margin: 20px;
-  margin-bottom: 200px;
-}
-
 
 .sicon {
   transition: .5s ease-out;
 }
 
-.sicon:hover {
-  fill: rgb(86, 218, 255);
-}
-
-.allsocial {
-  margin-top: 50px;
-  margin-bottom: 200px;
-}
-
-p {
-  color: black;
-  line-height: 2em;
-
-}
 
 #about {
-  display: grid;
   background-image: url("https://i.imgur.com/tdl4SQd.jpg");
-  background-color: rgba(0, 0, 0, 0.362);
-  background-size: 150%;
-  background-position-y: -100px;
-  max-width: 1000px;
   padding: 4em;
   margin-bottom: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  padding: 40px;
+  border-radius: 20px;
+  background-size: 200%;
+  background-position-y: -100px;
+  background-position-x: -200px;
+  max-width: 1000px;
 }
 
 #content {
-  padding: 40px;
-  background-color: #ffffff83;
-  border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px;
 }
 
-/* #hero {
-  max-width: 450px;
-  margin-right: 50px;
-  border-radius: 50%;
-} */
 
+#logop {
+    margin: 60px;
+  }
+
+
+
+
+
+/* For Tablet View */
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+  .topnav {
+    padding: 1em 4em 1em 0em;
+  }
+
+  #name {
+   font-size: 70px;
+  }
+
+  h2 {
+   font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  #about {
+    background-size: 200%;
+    background-position-y: -150px;
+    background-position-x: -150px;
+    max-width: 90%;
+  }
+
+  #logop {
+    margin: 50px;
+  }
+}
+
+
+
+
+/* For Mobile Portrait View */
+@media screen and (max-width: 700px) {
+  .menu {
+    padding: 10px 10px 50px 0px;
+  }
+  
+  .topnav {
+    padding: 10px 10px 10px 0px;
+  }
+
+  #logop {
+    margin: 10px 10px 0px 40px;
+  }
+
+  #name {
+   font-size: 40px;
+  }
+
+  h2 {
+   font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+#about {
+    background-size: 200%;
+    background-position-y: -60px;
+    background-position-x: -100px;
+    max-width: 90%;
+  }
+
+#content {
+    padding: 30px;
+    margin: 10px;
+  }
+
+.socialicon {
+  width: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* create a footer */
 footer {
-  background-color: #ffffff;
-  display: block;
+  background-color: rgba(255, 255, 255, 0.226);
+  color: rgb(0, 0, 0);
+  padding: 1em;
   text-align: center;
-  max-height: 10px;
-  margin-bottom: 0px;
+  margin-top: 200px;
 }

@@ -7,14 +7,6 @@ gsap.from("#name", {
     ease: "bounce",
 })
 
-gsap.from("#box", {
-    duration: 1.5,
-    scale: .001,
-    rotate: 40,
-    x: 1000,
-    y: 1000,
-})
-
 gsap.from("#M", {
     duration: 2,
     scale: .001,
