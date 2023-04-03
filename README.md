@@ -10,3 +10,8 @@ Business Major with Visual Communication Design at Eastern Washington University
 * Finance
 * Web Design
 * Illustration
+
+## My Links
+- [Github](https://github.com/miketochinskiy/miketochinskiy)
+- [CodePen](https://codepen.io/mtochinskiy)
+- [LinkedIn](https://www.linkedin.com/in/michaeltochinskiy)
