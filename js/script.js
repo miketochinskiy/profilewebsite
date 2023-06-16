@@ -21,4 +21,13 @@ gsap.from("#T", {
     y: 1000,
 })
 
-    
+gsap.from(".socialicon", {
+    x: -500,
+    y: 0,
+    stagger: {
+        each: .5,
+        from: 0,
+        },
+    duration: 1,
+   // ease: "bounce", 
+})
